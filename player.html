@@ -1,0 +1,32 @@
+<head>
+  <link href="//vjs.zencdn.net/5.9.2/video-js.css" rel="stylesheet">
+  <!-- Support for IE8 -->
+  <script src="//vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  <!-- Body style tweaks, disable full-screen toggle -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+    }
+ 
+    .video-js {
+      width: 100%;
+      height: 100%;
+    }
+ 
+    .video-js .vjs-fullscreen-control {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <video id="WHIM1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" height="100%" width="100%" data-setup="{}">
+    <source src="//MY_VIDEO.mp4" type='video/mp4'>
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="//videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+  <script src="//vjs.zencdn.net/5.9.2/video.js"></script>
+</body>
